@@ -1,0 +1,2556 @@
+{
+  "sourceConfigVersion": "2.6.7",
+  "sourceExportedAt": "2026-06-10T21:02:23.020Z",
+  "olderConfigVersion": "2.0.0",
+  "olderConfigExportedAt": "2026-05-03T15:08:33.236Z",
+  "language": "fr-FR",
+  "adultContentEnabled": false,
+  "catalogs": [
+    {
+      "id": "mdblist.120520",
+      "type": "series",
+      "name": "🎌🔥 Top 10 of the Week",
+      "enabled": true,
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "default",
+      "order": "asc",
+      "cacheTTL": 86400,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 10,
+        "author": "kidou14",
+        "url": "https://mdblist.com/lists/kidou14/top-10-anime-of-the-week",
+        "mediatype": "show"
+      },
+      "displayType": "series"
+    },
+    {
+      "id": "trakt.recommendations.movies",
+      "name": "Trakt Recommendations",
+      "type": "movie",
+      "source": "trakt",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "movie"
+    },
+    {
+      "id": "trakt.recommendations.shows",
+      "name": "Trakt Recommendations",
+      "type": "series",
+      "source": "trakt",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "series"
+    },
+    {
+      "id": "tmdb.top",
+      "name": "TMDB Helper",
+      "sort": "default",
+      "type": "movie",
+      "order": "asc",
+      "source": "tmdb",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "movie"
+    },
+    {
+      "id": "mal.airing",
+      "name": "📺✨ Airing Now",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": true,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.upcoming",
+      "name": "Upcoming Season",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.schedule",
+      "name": "Airing Schedule",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.seasons",
+      "name": "🌸🌞 This Season",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": true,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.discover.anime.mal_best_of_60s.mq79wk2l",
+      "type": "anime",
+      "name": "MAL Best of 60s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "start_date": "1960-01-01",
+            "end_date": "1969-12-31",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "MAL Best of 60s",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "series",
+            "malType": "",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "1960-01-01",
+            "malEndDate": "1969-12-31",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.mal_best_of_80s_custom.mq79x7tm",
+      "type": "anime",
+      "name": "MAL Best of 70s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "start_date": "1970-01-01",
+            "end_date": "1979-12-31",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "MAL Best of 70s",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "series",
+            "malType": "",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "1970-01-01",
+            "malEndDate": "1979-12-31",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      },
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.80sDecade",
+      "name": "Best of 80s",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.90sDecade",
+      "name": "Best of 90s",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.00sDecade",
+      "name": "Best of 2000s",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.10sDecade",
+      "name": "Best of 2010s",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.20sDecade",
+      "name": "Best of 2020s",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.genres",
+      "name": "Genres",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.studios",
+      "name": "By Studio",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.top_movies",
+      "name": "Most Watched Movies",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.top_series",
+      "name": "Most Watched Series",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.most_favorites",
+      "name": "Most Favorites",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.most_popular",
+      "name": "Most Popular",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.top_anime",
+      "name": "Top Anime",
+      "sort": "default",
+      "type": "anime",
+      "order": "asc",
+      "source": "mal",
+      "enabled": true,
+      "showInHome": false,
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.discover.anime.bones.mq75ld4h",
+      "type": "anime",
+      "name": "Bones",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "producers": "4",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Bones",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 4,
+                "label": "Bones"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.a_1.mq75ubru",
+      "type": "anime",
+      "name": "A-1",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "producers": "56",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "A-1",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 56,
+                "label": "A-1 Pictures"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.mal_top_series_custom.mq7607fb",
+      "type": "anime",
+      "name": "Mappa",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "producers": "569",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Mappa",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 569,
+                "label": "MAPPA"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.wit_studio.mq7767iu",
+      "type": "anime",
+      "name": "WIT Studio",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "producers": "858",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "WIT Studio",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 858,
+                "label": "Wit Studio"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.mal_airing_now_custom.mq776ovv",
+      "type": "anime",
+      "name": "Kyoto Animation",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "producers": "2",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Kyoto Animation",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 2,
+                "label": "Kyoto Animation"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.toei_animation.mq778ste",
+      "type": "anime",
+      "name": "Toei Animation",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "producers": "18",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Toei Animation",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 18,
+                "label": "Toei Animation"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.production_i_g.mq779onh",
+      "type": "anime",
+      "name": "Production I.G",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "producers": "10",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Production I.G",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 10,
+                "label": "Production I.G"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.ufotable_studio.mq77b0ux",
+      "type": "anime",
+      "name": "Ufotable Studio",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "producers": "43",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Ufotable Studio",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 43,
+                "label": "ufotable"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.studio_pierrot.mq77bw6u",
+      "type": "anime",
+      "name": "Studio Pierrot",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "producers": "1",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Studio Pierrot",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 1,
+                "label": "Studio Pierrot"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.mad_house.mq77d5sk",
+      "type": "anime",
+      "name": "Mad House",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "producers": "11",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Mad House",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 11,
+                "label": "Madhouse"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action.mq780iik",
+      "type": "anime",
+      "name": "Action",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "1",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Action",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 1,
+                "label": "Action"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786rrg",
+      "type": "anime",
+      "name": "Adventure",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "2",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Adventure",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 2,
+                "label": "Adventure"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786sh1",
+      "type": "anime",
+      "name": "Comedy",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "4",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Comedy",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 4,
+                "label": "Comedy"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786szs",
+      "type": "anime",
+      "name": "Drama",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "8",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Drama",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 8,
+                "label": "Drama"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786thb",
+      "type": "anime",
+      "name": "Horror",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "14",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Horror",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 14,
+                "label": "Horror"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786tyf",
+      "type": "anime",
+      "name": "Shounen",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "27",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Shounen",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 27,
+                "label": "Shounen"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786ujm",
+      "type": "anime",
+      "name": "Slice Of Life",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "36",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Slice Of Life",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 36,
+                "label": "Slice of Life"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786v27",
+      "type": "anime",
+      "name": "Mecha",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "18",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Mecha",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 18,
+                "label": "Mecha"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786vl6",
+      "type": "anime",
+      "name": "Isekai",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "62",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Isekai",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 62,
+                "label": "Isekai"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786w4b",
+      "type": "anime",
+      "name": "Seinen",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "42",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Seinen",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 42,
+                "label": "Seinen"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786wm8",
+      "type": "anime",
+      "name": "Shoujo",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "25",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Shoujo",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 25,
+                "label": "Shoujo"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.action_copy.mq786xic",
+      "type": "anime",
+      "name": "Donghua",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "popularity",
+            "sort": "desc",
+            "producers": "2191",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Donghua",
+            "discoverSource": "mal",
+            "sortBy": "popularity",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [
+              {
+                "id": 2191,
+                "label": "BUILD DREAM"
+              }
+            ],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.winter.mq78or2o",
+      "type": "anime",
+      "name": "Winter",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "season": "WINTER",
+            "seasonYear": "2026",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Winter",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "WINTER",
+            "malSeasonYear": "2026",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.winter_copy.mq78ov66",
+      "type": "anime",
+      "name": "Spring",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "favorites",
+            "sort": "desc",
+            "type": "tv",
+            "season": "SPRING",
+            "seasonYear": "2026",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Spring",
+            "discoverSource": "mal",
+            "sortBy": "favorites",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "SPRING",
+            "malSeasonYear": "2026",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.winter_copy.mq78ovvm",
+      "type": "anime",
+      "name": "Summer",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "season": "SUMMER",
+            "seasonYear": "2025",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Summer",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "SUMMER",
+            "malSeasonYear": "2025",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.winter_copy.mq78owfe",
+      "type": "anime",
+      "name": "Fall",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "season": "FALL",
+            "seasonYear": "2025",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Fall",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "FALL",
+            "malSeasonYear": "2025",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mdblist.24814",
+      "type": "series",
+      "name": "Dubbed Only",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "sort": "default",
+      "order": "asc",
+      "cacheTTL": 86400,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 234,
+        "author": "sysops",
+        "url": "https://mdblist.com/lists/sysops/anime-dubbed-only",
+        "mediatype": "show"
+      },
+      "displayType": "series"
+    },
+    {
+      "id": "mdblist.10199",
+      "type": "series",
+      "name": "Donghua",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "sort": "default",
+      "order": "asc",
+      "cacheTTL": 86400,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 1824,
+        "author": "mwillacey71",
+        "url": "https://mdblist.com/lists/mwillacey71/donghua-animated-things-based-off-chinese-stuff",
+        "mediatype": "show"
+      },
+      "displayType": "series"
+    },
+    {
+      "id": "mdblist.10201",
+      "type": "movie",
+      "name": "Donghua",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "sort": "default",
+      "order": "asc",
+      "cacheTTL": 86400,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 1450,
+        "author": "mwillacey71",
+        "url": "https://mdblist.com/lists/mwillacey71/donghua-animated-things-based-off-chinese-stuff",
+        "mediatype": "movie"
+      },
+      "displayType": "movie"
+    },
+    {
+      "id": "mal.discover.anime.romance.mq8edu7l",
+      "type": "anime",
+      "name": "Love Story",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "22",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Love Story",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 22,
+                "label": "Romance"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      },
+      "displayType": "anime"
+    },
+    {
+      "id": "mal.discover.anime.romance_copy.mq8edyaa",
+      "type": "anime",
+      "name": "Martial Arts",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "17",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Martial Arts",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 17,
+                "label": "Martial Arts"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.romance_copy.mq8edyj3",
+      "type": "anime",
+      "name": "Team Sports",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "30",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Team Sports",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 30,
+                "label": "Sports"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.romance_copy.mq8edzrt",
+      "type": "anime",
+      "name": "Time Travel",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "78",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Time Travel",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 78,
+                "label": "Time Travel"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.romance_copy.mq8ee0ek",
+      "type": "anime",
+      "name": "Super Power",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "31",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Super Power",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 31,
+                "label": "Super Power"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.romance_copy.mq8ee10m",
+      "type": "anime",
+      "name": "Samurai",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "21",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Samurai",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 21,
+                "label": "Samurai"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mal.discover.anime.romance_copy.mq8ee1ku",
+      "type": "anime",
+      "name": "Urban Fantasy",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "cacheTTL": 86400,
+      "metadata": {
+        "description": "MAL Discover (anime)",
+        "url": "https://myanimelist.net/anime.php",
+        "discover": {
+          "version": 2,
+          "source": "mal",
+          "mediaType": "anime",
+          "params": {
+            "order_by": "score",
+            "sort": "desc",
+            "type": "tv",
+            "genres": "82",
+            "sfw": true
+          },
+          "formState": {
+            "catalogName": "Urban Fantasy",
+            "discoverSource": "mal",
+            "sortBy": "score",
+            "cacheTTL": 86400,
+            "catalogType": "anime",
+            "malType": "tv",
+            "malStatus": "",
+            "malRating": "",
+            "malSortDirection": "desc",
+            "malIncludeGenreIds": [
+              {
+                "id": 82,
+                "label": "Urban Fantasy"
+              }
+            ],
+            "malExcludeGenreIds": [],
+            "malProducers": [],
+            "malMinScore": 0,
+            "malMaxScore": 10,
+            "malStartDate": "",
+            "malEndDate": "",
+            "malSeason": "",
+            "malSeasonYear": "",
+            "malSfw": true
+          }
+        }
+      }
+    },
+    {
+      "id": "mdblist.2472",
+      "type": "series",
+      "name": "Latest Release",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Latest Release"
+      }
+    },
+    {
+      "id": "mdblist.13541",
+      "type": "movie",
+      "name": "Popular",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Popular"
+      }
+    },
+    {
+      "id": "mdblist.13542",
+      "type": "series",
+      "name": "Popular",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Popular"
+      }
+    },
+    {
+      "id": "mdblist.13576",
+      "type": "movie",
+      "name": "Most Watched",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Most Watched"
+      }
+    },
+    {
+      "id": "mdblist.13575",
+      "type": "series",
+      "name": "Most Watched",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Most Watched"
+      }
+    },
+    {
+      "id": "mdblist.158702",
+      "type": "series",
+      "name": "Upcoming",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Upcoming"
+      }
+    },
+    {
+      "id": "mdblist.103378",
+      "type": "series",
+      "name": "A-1 Pictures",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "A-1 Pictures"
+      }
+    },
+    {
+      "id": "mdblist.103385",
+      "type": "series",
+      "name": "Mad House",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Mad House"
+      }
+    },
+    {
+      "id": "mdblist.103384",
+      "type": "series",
+      "name": "Studio Pierrot",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Studio Pierrot"
+      }
+    },
+    {
+      "id": "mdblist.103382",
+      "type": "series",
+      "name": "Ufotable Studio",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Ufotable Studio"
+      }
+    },
+    {
+      "id": "mdblist.103387",
+      "type": "series",
+      "name": "Production I.G",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Production I.G"
+      }
+    },
+    {
+      "id": "mal.discover.anime.wit_studio.moj6a8u2",
+      "type": "anime",
+      "name": "Wit Studio",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mal",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Wit Studio"
+      }
+    },
+    {
+      "id": "mdblist.103383",
+      "type": "series",
+      "name": "Kyoto Animation",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Kyoto Animation"
+      }
+    },
+    {
+      "id": "mdblist.103388",
+      "type": "series",
+      "name": "Bones Studio",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Bones Studio"
+      }
+    },
+    {
+      "id": "mdblist.103386",
+      "type": "series",
+      "name": "Mappa Studio",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Mappa Studio"
+      }
+    },
+    {
+      "id": "mdblist.103381",
+      "type": "series",
+      "name": "Toei Animation Studio",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Toei Animation Studio"
+      }
+    },
+    {
+      "id": "mdblist.6871",
+      "type": "series",
+      "name": "Action",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Action"
+      }
+    },
+    {
+      "id": "mdblist.6870",
+      "type": "series",
+      "name": "Adventure",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Adventure"
+      }
+    },
+    {
+      "id": "mdblist.6928",
+      "type": "series",
+      "name": "Comedy",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Comedy"
+      }
+    },
+    {
+      "id": "mdblist.8532",
+      "type": "series",
+      "name": "Drama",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Drama"
+      }
+    },
+    {
+      "id": "mdblist.43303",
+      "type": "series",
+      "name": "Horror",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Horror"
+      }
+    },
+    {
+      "id": "mdblist.158514",
+      "type": "series",
+      "name": "Shounen",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Shounen"
+      }
+    },
+    {
+      "id": "anilist.discover.anime.slice_of_life_anilist.momy937p",
+      "type": "anime",
+      "name": "Slice Of Life",
+      "enabled": true,
+      "showInHome": false,
+      "source": "custom",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Slice Of Life"
+      }
+    },
+    {
+      "id": "mdblist.98352",
+      "type": "movie",
+      "name": "Mecha",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Mecha"
+      }
+    },
+    {
+      "id": "mdblist.10296",
+      "type": "series",
+      "name": "Mecha",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Mecha"
+      }
+    },
+    {
+      "id": "mdblist.95975",
+      "type": "series",
+      "name": "Isekai",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Isekai"
+      }
+    },
+    {
+      "id": "mdblist.158516",
+      "type": "series",
+      "name": "Seinen",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Seinen"
+      }
+    },
+    {
+      "id": "mdblist.79491",
+      "type": "series",
+      "name": "Shoujo",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Shoujo"
+      }
+    },
+    {
+      "id": "mdblist.73330",
+      "type": "movie",
+      "name": "Donghua",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Donghua"
+      }
+    },
+    {
+      "id": "mdblist.73326",
+      "type": "series",
+      "name": "Donghua",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Donghua"
+      }
+    },
+    {
+      "id": "mdblist.158520",
+      "type": "series",
+      "name": "Winter",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Winter"
+      }
+    },
+    {
+      "id": "mdblist.139688",
+      "type": "series",
+      "name": "Spring",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Spring"
+      }
+    },
+    {
+      "id": "mdblist.158518",
+      "type": "series",
+      "name": "Summer",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Summer"
+      }
+    },
+    {
+      "id": "mdblist.158519",
+      "type": "series",
+      "name": "Fall",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "Fall"
+      }
+    },
+    {
+      "id": "mdblist.25246",
+      "type": "series",
+      "name": "1960s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "1960s"
+      }
+    },
+    {
+      "id": "mdblist.25245",
+      "type": "series",
+      "name": "1970s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "1970s"
+      }
+    },
+    {
+      "id": "mdblist.25244",
+      "type": "series",
+      "name": "1980s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "1980s"
+      }
+    },
+    {
+      "id": "mdblist.25243",
+      "type": "series",
+      "name": "1990s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "1990s"
+      }
+    },
+    {
+      "id": "mdblist.25242",
+      "type": "series",
+      "name": "2000s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "2000s"
+      }
+    },
+    {
+      "id": "mdblist.25241",
+      "type": "series",
+      "name": "2010s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "2010s"
+      }
+    },
+    {
+      "id": "mdblist.25240",
+      "type": "series",
+      "name": "2020s",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "metadata": {
+        "source": "nuvio-collection-profile",
+        "folderTitle": "2020s"
+      }
+    }
+  ],
+  "sourceConfigSummary": {
+    "latestCatalogCount": 58,
+    "olderCatalogCount": 52,
+    "latestProviders": {
+      "anime": "tvdb",
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime_id_provider": "kitsu",
+      "forceAnimeForDetectedImdb": true
+    },
+    "apiKeysPresentInExport": []
+  }
+}

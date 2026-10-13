@@ -1,0 +1,1152 @@
+{
+  "version": "2.0.0",
+  "exportedAt": "2026-05-03T15:08:33.236Z",
+  "config": {
+    "language": "en-US",
+    "addonName": "",
+    "includeAdult": false,
+    "blurThumbs": false,
+    "showPrefix": false,
+    "showMetaProviderAttribution": false,
+    "castCount": 10,
+    "displayAgeRating": false,
+    "showDisabledCatalogs": false,
+    "sfw": false,
+    "hideUnreleasedDigital": false,
+    "hideUnreleasedDigitalSearch": false,
+    "hideWatchedTrakt": false,
+    "hideWatchedAnilist": false,
+    "hideWatchedMdblist": false,
+    "providers": {
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime": "kitsu",
+      "anime_id_provider": "imdb",
+      "forceAnimeForDetectedImdb": true
+    },
+    "artProviders": {
+      "movie": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "series": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "anime": {
+        "poster": "meta",
+        "background": "imdb",
+        "logo": "imdb"
+      },
+      "englishArtOnly": false
+    },
+    "tvdbSeasonType": "default",
+    "mal": {
+      "skipFiller": false,
+      "skipRecap": false,
+      "allowEpisodeMarking": false,
+      "useImdbIdForCatalogAndSearch": false
+    },
+    "tmdb": {
+      "scrapeImdb": true,
+      "forceLatinCastNames": false
+    },
+    "apiKeys": {
+      "gemini": "",
+      "tmdb": "",
+      "tvdb": "",
+      "fanart": "",
+      "rpdb": "",
+      "topPoster": "",
+      "mdblist": "",
+      "openrouter": "",
+      "traktTokenId": "",
+      "simklTokenId": "",
+      "anilistTokenId": "",
+      "customDescriptionBlurb": ""
+    },
+    "posterRatingProvider": "custom",
+    "usePosterProxy": true,
+    "mdblistWatchTracking": true,
+    "anilistWatchTracking": true,
+    "simklWatchTracking": true,
+    "traktWatchTracking": true,
+    "enableRatingPostersForLibrary": true,
+    "showRateMeButton": false,
+    "ageRating": "None",
+    "searchEnabled": true,
+    "sessionId": "",
+    "catalogSetupComplete": true,
+    "timezone": "Europe/Paris",
+    "catalogs": [
+      {
+        "id": "mdblist.120520",
+        "type": "series",
+        "name": "Top 10 Anime of the Week",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 10,
+          "author": "kidou14",
+          "url": "https://mdblist.com/lists/kidou14/top-10-anime-of-the-week",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.86214",
+        "type": "series",
+        "name": "Currently Airing",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 107,
+          "author": "moafew21",
+          "url": "https://mdblist.com/lists/moafew21/latest-anime",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.13575",
+        "type": "series",
+        "name": "Most Watched",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 897,
+          "author": "linvo",
+          "url": "https://mdblist.com/lists/linvo/top-of-all-time-anime-series",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.13576",
+        "type": "movie",
+        "name": "Most Watched",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 375,
+          "author": "linvo",
+          "url": "https://mdblist.com/lists/linvo/top-of-all-time-anime-movies",
+          "mediatype": "movie"
+        },
+        "displayType": "movie"
+      },
+      {
+        "id": "mdblist.13542",
+        "type": "series",
+        "name": "Popular",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1365,
+          "author": "linvo",
+          "url": "https://mdblist.com/lists/linvo/anime-series-popular",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.13541",
+        "type": "movie",
+        "name": "Popular",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1047,
+          "author": "linvo",
+          "url": "https://mdblist.com/lists/linvo/anime-movies-popular",
+          "mediatype": "movie"
+        },
+        "displayType": "movie"
+      },
+      {
+        "id": "mdblist.47642",
+        "type": "series",
+        "name": "This Season",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 57,
+          "author": "skack97",
+          "url": "https://mdblist.com/lists/skack97/current-anime-season",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.2472",
+        "type": "series",
+        "name": "Latest Release",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 330,
+          "author": "iamscallywag",
+          "url": "https://mdblist.com/lists/iamscallywag/latest-anime",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103378",
+        "type": "series",
+        "name": "A-1 Pictures",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 83,
+          "author": "jarvis-15468249",
+          "url": "https://mdblist.com/lists/jarvis-15468249/a-1-pictures-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103384",
+        "type": "series",
+        "name": "Pierrot Animation",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 116,
+          "author": "chrismilton605-gmail-com",
+          "url": "https://mdblist.com/lists/chrismilton605-gmail-com/pierrot-animation-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103385",
+        "type": "series",
+        "name": "Madhouse",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 154,
+          "author": "chrismilton605-gmail-com",
+          "url": "https://mdblist.com/lists/chrismilton605-gmail-com/madhouse-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103386",
+        "type": "series",
+        "name": "MAPPA",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 45,
+          "author": "chrismilton605-gmail-com",
+          "url": "https://mdblist.com/lists/chrismilton605-gmail-com/mappa-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103387",
+        "type": "series",
+        "name": "Production I.G",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 117,
+          "author": "chrismilton605-gmail-com",
+          "url": "https://mdblist.com/lists/chrismilton605-gmail-com/production-ig-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103383",
+        "type": "series",
+        "name": "Kyoto Animation",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 26,
+          "author": "xpertplayer123",
+          "url": "https://mdblist.com/lists/xpertplayer123/kyoto-animation-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103382",
+        "type": "series",
+        "name": "Ufotable",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 15,
+          "author": "xpertplayer123",
+          "url": "https://mdblist.com/lists/xpertplayer123/ufotable-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103381",
+        "type": "series",
+        "name": "Toei Animation",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 255,
+          "author": "xpertplayer123",
+          "url": "https://mdblist.com/lists/xpertplayer123/toei-animation-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.103388",
+        "type": "series",
+        "name": "Bones",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 56,
+          "author": "xpert192938",
+          "url": "https://mdblist.com/lists/xpert192938/bones-shows",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.82978",
+        "type": "series",
+        "name": "A Venir",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 8,
+          "author": "mkswifty",
+          "url": "https://mdblist.com/lists/mkswifty/upcoming-anime-mkb",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.6871",
+        "type": "series",
+        "name": "Action",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 2580,
+          "author": "denes97",
+          "url": "https://mdblist.com/lists/denes97/anime-tv-list-7f3ee625-b297-4626-bfaa-db2ee2dbbc9f",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.6870",
+        "type": "series",
+        "name": "Adventure",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 4666,
+          "author": "denes97",
+          "url": "https://mdblist.com/lists/denes97/anime-tv-list",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.8532",
+        "type": "series",
+        "name": "Drama",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 425,
+          "author": "andrewkennedy",
+          "url": "https://mdblist.com/lists/andrewkennedy/top-rated-anime",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.6928",
+        "type": "series",
+        "name": "Comedy",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 262,
+          "author": "breon64",
+          "url": "https://mdblist.com/lists/breon64/popular-anime",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.43303",
+        "type": "series",
+        "name": "Horror",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 5441,
+          "author": "latestanimereleaselist",
+          "url": "https://mdblist.com/lists/latestanimereleaselist/latest-anime-releases",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.95975",
+        "type": "series",
+        "name": "Isekai",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 305,
+          "author": "sylgretor",
+          "url": "https://mdblist.com/lists/sylgretor/list-of-all-anime-series-tagged-isekai",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.13117",
+        "type": "series",
+        "name": "Ecchi",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 140,
+          "author": "saab51",
+          "url": "https://mdblist.com/lists/saab51/ecchi-anime-a-voir",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.158519",
+        "type": "series",
+        "name": "Fall",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1,
+          "author": "axee4",
+          "url": "https://mdblist.com/lists/axee4/anime-fall",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.139868",
+        "type": "series",
+        "name": "Isekai",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 199,
+          "author": "axee4",
+          "url": "https://mdblist.com/lists/axee4/anime-isekai",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.158516",
+        "type": "series",
+        "name": "Seinen",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 4695,
+          "author": "axee4",
+          "url": "https://mdblist.com/lists/axee4/anime-seinen",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.158514",
+        "type": "series",
+        "name": "Shounen",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 4987,
+          "author": "axee4",
+          "url": "https://mdblist.com/lists/axee4/anime-hounen",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.158518",
+        "type": "series",
+        "name": "Summer",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 5,
+          "author": "axee4",
+          "url": "https://mdblist.com/lists/axee4/anime-summer",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.139688",
+        "type": "series",
+        "name": "Spring",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 20,
+          "author": "axee4",
+          "url": "https://mdblist.com/lists/axee4/anime-spring-0i3k8rc5cx",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.158702",
+        "type": "series",
+        "name": "Upcoming",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 56,
+          "author": "axee4",
+          "url": "https://mdblist.com/lists/axee4/anime-upcoming",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.158520",
+        "type": "series",
+        "name": "Winter",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 0,
+          "author": "axee4",
+          "url": "https://mdblist.com/lists/axee4/anime-winter",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.148240",
+        "type": "all",
+        "name": "Yuri",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 152,
+          "author": "yuyach",
+          "url": "https://mdblist.com/lists/yuyach/yuri"
+        }
+      },
+      {
+        "id": "mdblist.10296",
+        "type": "series",
+        "name": "Mecha",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 349,
+          "author": "mwillacey71",
+          "url": "https://mdblist.com/lists/mwillacey71/mecha-anime-6d0073cd-e875-499e-bbf1-3196005cc323",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.98352",
+        "type": "movie",
+        "name": "Mecha",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 320,
+          "author": "mwillacey71",
+          "url": "https://mdblist.com/lists/mwillacey71/mecha-anime-6d0073cd-e875-499e-bbf1-3196005cc323",
+          "mediatype": "movie"
+        },
+        "displayType": "movie"
+      },
+      {
+        "id": "mdblist.79491",
+        "type": "series",
+        "name": "Shoujo",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "released",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 88,
+          "author": "v4v4i",
+          "url": "https://mdblist.com/lists/v4v4i/slice-of-life-mostly-shojo",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.29912",
+        "type": "series",
+        "name": "Crunchy",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "anime",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1759,
+          "author": "jukebox8786",
+          "url": "https://mdblist.com/lists/jukebox8786/crunchyroll-anime",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.29914",
+        "type": "series",
+        "name": "Anime Digital Network",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 392,
+          "author": "jukebox8786",
+          "url": "https://mdblist.com/lists/jukebox8786/anime-digital-network-anime",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "movie"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll",
+        "type": "series",
+        "source": "streaming",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.73326",
+        "type": "series",
+        "name": "Donghua",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 626,
+          "author": "alindoggmail",
+          "url": "https://mdblist.com/lists/alindoggmail/donghua-alin",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.73330",
+        "type": "movie",
+        "name": "Donghua",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 113,
+          "author": "alindoggmail",
+          "url": "https://mdblist.com/lists/alindoggmail/donghua-movies",
+          "mediatype": "movie"
+        },
+        "displayType": "movie"
+      },
+      {
+        "id": "mdblist.25240",
+        "type": "series",
+        "name": "Anime 2020s",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "imdbpopular",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 972,
+          "author": "pheerlessliter",
+          "url": "https://mdblist.com/lists/pheerlessliter/anime-2020s",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.25241",
+        "type": "series",
+        "name": "Anime 2010s",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "imdbpopular",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1547,
+          "author": "pheerlessliter",
+          "url": "https://mdblist.com/lists/pheerlessliter/anime-2010s",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.25242",
+        "type": "series",
+        "name": "Anime 2000s",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "imdbpopular",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1081,
+          "author": "pheerlessliter",
+          "url": "https://mdblist.com/lists/pheerlessliter/anime-2000s",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.25243",
+        "type": "series",
+        "name": "Anime 1990s",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "imdbpopular",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 637,
+          "author": "pheerlessliter",
+          "url": "https://mdblist.com/lists/pheerlessliter/anime-1990s",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.25244",
+        "type": "series",
+        "name": "Anime 1980s",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "imdbpopular",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 348,
+          "author": "pheerlessliter",
+          "url": "https://mdblist.com/lists/pheerlessliter/anime-1980s",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.25245",
+        "type": "series",
+        "name": "Anime 1970s",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "imdbpopular",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 181,
+          "author": "pheerlessliter",
+          "url": "https://mdblist.com/lists/pheerlessliter/anime-1970s",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.25246",
+        "type": "series",
+        "name": "Anime 1960s",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "imdbpopular",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 63,
+          "author": "pheerlessliter",
+          "url": "https://mdblist.com/lists/pheerlessliter/anime-1960s",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.24814",
+        "type": "series",
+        "name": "Dubbed Only",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 234,
+          "author": "sysops",
+          "url": "https://mdblist.com/lists/sysops/anime-dubbed-only",
+          "mediatype": "show"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "mdblist.31268",
+        "type": "series",
+        "name": "Anime Seasonal",
+        "enabled": false,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 451,
+          "author": "imalpha11",
+          "url": "https://mdblist.com/lists/imalpha11/anime-seasonal",
+          "mediatype": "show"
+        }
+      }
+    ],
+    "search": {
+      "enabled": true,
+      "ai_enabled": true,
+      "ai_provider": "gemini",
+      "ai_model": "gemini-2.5-flash-lite",
+      "providers": {
+        "movie": "tmdb.search",
+        "series": "tvdb.search",
+        "anime_movie": "kitsu.search.movie",
+        "anime_series": "kitsu.search.series",
+        "people_search_movie": "tmdb.people.search",
+        "people_search_series": "tmdb.people.search"
+      },
+      "engineEnabled": {
+        "tmdb.search": true,
+        "tvdb.search": true,
+        "tvdb.collections.search": true,
+        "tvmaze.search": true,
+        "trakt.search": true,
+        "mdblist.search": true,
+        "people_search_movie": true,
+        "people_search_series": true,
+        "mal.search.movie": true,
+        "mal.search.series": true,
+        "gemini.search": true
+      },
+      "searchNames": {},
+      "searchOrder": [
+        "gemini.search",
+        "anime_series",
+        "anime_movie",
+        "movie",
+        "series",
+        "tvdb.collections.search",
+        "people_search_movie",
+        "people_search_series"
+      ]
+    },
+    "streaming": [
+      "cru",
+      "crc"
+    ],
+    "customPosterUrlPattern": "https://btttr.cc/poster/imdb/poster-default/{imdb_id}.jpg",
+    "customBackgroundUrlPattern": "",
+    "customLogoUrlPattern": "",
+    "customThumbnailUrlPattern": "",
+    "lastModified": 1777764024089,
+    "configVersion": 1777764024090,
+    "configHash": "3f30f45dad9e5d32"
+  },
+  "metadata": {
+    "apiKeysExcluded": true,
+    "totalCatalogs": 52,
+    "enabledCatalogs": 51
+  }
+}
